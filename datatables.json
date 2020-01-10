@@ -1,0 +1,13 @@
+{
+    "css": [
+        "css/searchPanes.semanticui.css",
+        "css/searchPanes.semanticui.min.css"
+    ],
+    "js": [
+        "js/searchPanes.semanticui.js",
+        "js/searchPanes.semanticui.min.js"
+    ],
+    "src-repo": "http://github.com/DataTables/SearchPanes",
+    "last-sync": "",
+    "last-tag": ""
+}

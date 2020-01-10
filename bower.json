@@ -1,0 +1,38 @@
+{
+    "name": "datatables.net-searchpanes-se",
+    "description": "SearchPanes for DataTables with styling for Semantic UI",
+    "main": [
+        "js/searchPanes.semanticui.js",
+        "css/searchPanes.semanticui.css"
+    ],
+    "keywords": [
+        "Search",
+        "Filter",
+        "DataTables",
+        "jQuery",
+        "table"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-se": ">=1.10.19",
+        "datatables.net-searchpanes": ">=1.0.0"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "homepage": "https://datatables.net",
+    "license": "MIT"
+}
