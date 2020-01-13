@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-searchpanes-se",
-    "version": "0.0.5",
+    "version": "1.0.0",
     "description": "SearchPanes for DataTables with styling for Semantic UI",
     "files": [
         "css/**/*.css",
@@ -25,7 +25,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-se": "^1.10.15",
-        "datatables.net-searchpanes": "0.0.5"
+        "datatables.net-searchpanes": "1.0.0"
     },
     "repository": {
         "type": "git",
