@@ -158,6 +158,7 @@ div.dtsp-panesContainer {
   border: 2px solid #f0f0f0;
   border-radius: 10px;
   margin: 5px 0;
+  font-size: 0.9em !important;
 }
 div.dtsp-panesContainer .ui.grid {
   margin: 0px !important;
@@ -237,7 +238,6 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_
   width: auto;
   min-width: 30px;
   color: black;
-  font-size: 0.9em;
   padding: 0 4px;
 }
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_wrapper div.dataTables_filter {
