@@ -26,7 +26,7 @@
     }
 }(function ($, window, document) {
     'use strict';
-    var DataTable = $.fn.dataTable;
+    let DataTable = $.fn.dataTable;
     $.extend(true, DataTable.SearchPane.classes, {
         buttonGroup: 'right floated ui buttons column',
         container: 'dtsp-searchPane column ui grid',
@@ -40,7 +40,7 @@
     });
     $.extend(true, DataTable.SearchPanes.classes, {
         clearAll: 'dtsp-clearAll ui button',
-        container: 'dtsp-searchPanes ui grid'
+        container: 'dtsp-searchPanes ui grid',
     });
     // This override is required for the integrated search Icon in sematic ui
     DataTable.SearchPane.prototype._searchContSetup = function () {
