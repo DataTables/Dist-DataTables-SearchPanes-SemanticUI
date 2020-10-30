@@ -270,8 +270,8 @@ div.dtsp-panesContainer div.dtsp-titleRow {
 
 @media screen and (max-width: 767px) {
   div.dtsp-columns-4,
-  div.dtsp-columns-5,
-  div.dtsp-columns-6 {
+div.dtsp-columns-5,
+div.dtsp-columns-6 {
     max-width: 31% !important;
     min-width: 31% !important;
   }
