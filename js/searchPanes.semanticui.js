@@ -29,18 +29,15 @@
     var DataTable = $.fn.dataTable;
     $.extend(true, DataTable.SearchPane.classes, {
         buttonGroup: 'right floated ui buttons column',
-        container: 'dtsp-searchPane column ui grid',
         dull: 'disabled',
         narrowSearch: 'dtsp-narrowSearch',
         narrowSub: 'dtsp-narrow',
         paneButton: 'ui button',
         paneInputButton: 'circular search link icon',
-        searchCont: 'ui icon input eight wide column',
         topRow: 'row dtsp-topRow'
     });
     $.extend(true, DataTable.SearchPanes.classes, {
-        clearAll: 'dtsp-clearAll ui button',
-        container: 'dtsp-searchPanes ui grid'
+        clearAll: 'dtsp-clearAll ui button'
     });
     // This override is required for the integrated search Icon in sematic ui
     DataTable.SearchPane.prototype._searchContSetup = function () {
