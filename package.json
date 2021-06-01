@@ -3,7 +3,8 @@
     "description": "SearchPanes for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
     "main": "js/searchPanes.semanticui.js",
     "style": "css/searchPanes.semanticui.css",
-    "version": "1.2.2",
+    "types": "./types/searchPanes.semanticui.d.ts",
+    "version": "1.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -22,7 +23,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": ">=1.2.2",
+        "datatables.net-searchpanes": ">=1.3.0",
         "datatables.net-se": ">=1.10.24",
         "jquery": ">=1.7"
     },
