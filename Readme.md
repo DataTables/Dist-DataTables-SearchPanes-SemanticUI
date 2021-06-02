@@ -1,6 +1,6 @@
 # SearchPanes for DataTables with styling for [SemanticUI](https://semantic-ui.com/)
 
-This package contains a built distribution of the [SearchPanes extension](https://datatables.net/extensions/SearchPanes) for [DataTables](https://datatables.net/) with styling for [SemanticUI](https://semantic-ui.com/).
+This package contains a built distribution of the [SearchPanes extension](https://datatables.net/extensions/searchpanes) for [DataTables](https://datatables.net/) with styling for [SemanticUI](https://semantic-ui.com/).
 
 The SearchPanes extension for DataTables provides improved Searching functionality allowing users to select options from a "Pane" which will then in turn search the DataTable and return the relevant results. There are multiple configuration options available to enhance SearchPanes.
 
