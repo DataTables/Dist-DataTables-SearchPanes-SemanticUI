@@ -4,18 +4,18 @@
     "main": "js/searchPanes.semanticui.js",
     "style": "css/searchPanes.semanticui.css",
     "types": "./types/searchPanes.semanticui.d.ts",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "SearchPanes",
- "search",
- "filtering",
+        "search",
+        "filtering",
         "Semantic",
- "SemanticUI",
- "Semantic UI",
+        "SemanticUI",
+        "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
