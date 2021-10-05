@@ -4,7 +4,7 @@
     "main": "js/searchPanes.semanticui.js",
     "style": "css/searchPanes.semanticui.css",
     "types": "./types/searchPanes.semanticui.d.ts",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -24,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": ">=1.3.0",
-        "datatables.net-se": ">=1.10.25",
+        "datatables.net-searchpanes": ">=1.4.0",
+        "datatables.net-se": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
