@@ -189,6 +189,7 @@ div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dts
   vertical-align: middle;
   white-space: nowrap;
   flex-grow: 1;
+  text-align: left;
 }
 div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
   display: inline-block;
@@ -323,6 +324,10 @@ div.dtsp-searchPane div.dataTables_wrapper div.dtsp-nameCont span.badge {
   min-width: 30px;
   line-height: 1.25em;
   margin-top: 3.5px;
+}
+div.dtsp-searchPane div.ui.grid {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 div.dt-button-collection {
