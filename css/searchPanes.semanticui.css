@@ -259,19 +259,26 @@ div.dtsp-searchPane div.dtsp-topRow div.dtsp-subRow2 {
 }
 div.dtsp-searchPane div.dtsp-topRow input {
   min-height: 37px;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  padding-left: 12px;
 }
 div.dtsp-searchPane div.dtsp-topRow button {
-  border: 1px solid #ced4da;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: none;
+}
+div.dtsp-searchPane div.dtsp-topRow button:first-child {
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
 }
 div.dtsp-searchPane div.dtsp-topRow i.search {
   position: absolute;
   top: 7px;
   right: 3px;
   bottom: 0;
+  box-shadow: none;
 }
 div.dtsp-searchPane div.dtsp-topRow span.dtsp-caret {
   top: 4px;
-  right: 4px;
+  right: 0;
 }
 div.dtsp-searchPane div.dtsp-topRow button.dtsp-collapseButton {
   max-width: 44px;
@@ -328,6 +335,9 @@ div.dtsp-searchPane div.dataTables_wrapper div.dtsp-nameCont span.badge {
 div.dtsp-searchPane div.ui.grid {
   margin-top: 0;
   margin-bottom: 0;
+}
+div.dtsp-searchPane div.ui.grid div.row {
+  padding: 0 !important;
 }
 
 div.dt-button-collection {
