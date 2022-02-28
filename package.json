@@ -4,7 +4,7 @@
     "main": "js/searchPanes.semanticui.js",
     "style": "css/searchPanes.semanticui.css",
     "types": "./types/searchPanes.semanticui.d.ts",
-    "version": "1.4.0",
+    "version": "2.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
