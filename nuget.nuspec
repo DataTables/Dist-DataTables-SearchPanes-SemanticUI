@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>SearchPanes  search  filtering  Semantic  SemanticUI  Semantic UI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-searchpanes" version="1.4.0"/>
-            <dependency id="datatables.net-se" version="1.11.3"/>
+            <dependency id="datatables.net-searchpanes" version="2.0.0"/>
+            <dependency id="datatables.net-se" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/searchPanes.semanticui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/searchPanes.semanticui.min.css" target="content\Content"/>
         <file src="css/searchPanes.semanticui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/searchPanes.semanticui.d.ts" target="content\Scripts"/>
-        <file src="types/searchPanes.semanticui.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
