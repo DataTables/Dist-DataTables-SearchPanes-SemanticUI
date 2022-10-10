@@ -2,12 +2,14 @@
     "name": "datatables.net-searchpanes-se",
     "description": "SearchPanes for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
     "main": "js/searchPanes.semanticui.js",
+    "module": "js/searchPanes.semanticui.mjs",
     "style": "css/searchPanes.semanticui.css",
     "types": "./types/searchPanes.semanticui.d.ts",
     "version": "2.0.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
