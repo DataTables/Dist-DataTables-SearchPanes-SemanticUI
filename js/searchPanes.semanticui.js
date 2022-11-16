@@ -28,10 +28,9 @@
 				require('datatables.net-se')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.SearchPanes ) {
 				require('datatables.net-searchpanes')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
