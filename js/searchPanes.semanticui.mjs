@@ -6,7 +6,6 @@ import $ from 'jquery';
 import DataTable from 'datatables.net-se';
 import SearchPanes from 'datatables.net-searchpanes';
 
-
 $.extend(true, DataTable.SearchPane.classes, {
     buttonGroup: 'right floated ui buttons column',
     disabledButton: 'disabled',
