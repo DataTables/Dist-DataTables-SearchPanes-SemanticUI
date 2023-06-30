@@ -4,7 +4,7 @@
     "main": "js/searchPanes.semanticui.js",
     "module": "js/searchPanes.semanticui.mjs",
     "style": "css/searchPanes.semanticui.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/searchPanes.semanticui.d.ts",
     "version": "2.1.2",
     "files": [
         "css/**/*.css",
@@ -14,11 +14,11 @@
     ],
     "keywords": [
         "SearchPanes",
-        "search",
-        "filtering",
+ "search",
+ "filtering",
         "Semantic",
-        "SemanticUI",
-        "Semantic UI",
+ "SemanticUI",
+ "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
@@ -26,8 +26,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": ">=2.0.2",
-        "datatables.net-se": ">=1.12.1",
+        "datatables.net-searchpanes": ">=2.1.2",
+        "datatables.net-se": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
