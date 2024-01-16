@@ -1,4 +1,5 @@
-/*! semantic ui integration for DataTables' SearchPanes
- * © SpryMedia Ltd - datatables.net/license
- */
-declare var DataTable: any;
+
+import DataTable from 'datatables.net-searchpanes';
+
+export default DataTable;
+export * from 'datatables.net-searchpanes';
