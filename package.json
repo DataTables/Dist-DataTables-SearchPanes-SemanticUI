@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchpanes-se",
     "description": "SearchPanes for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
-    "main": "js/searchPanes.semanticui.js",
-    "module": "js/searchPanes.semanticui.mjs",
-    "style": "css/searchPanes.semanticui.css",
+    "main": "./js/searchPanes.semanticui.js",
+    "module": "./js/searchPanes.semanticui.mjs",
+    "style": "./css/searchPanes.semanticui.css",
     "types": "./types/searchPanes.semanticui.d.ts",
     "version": "2.3.5",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchPanes",
@@ -50,5 +49,24 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-SearchPanes-SemanticUI.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchPanes.semanticui.d.ts",
+            "import": "./js/searchPanes.semanticui.mjs",
+            "default": "./js/searchPanes.semanticui.mjs",
+            "require": "./js/searchPanes.semanticui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchPanes.semanticui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
