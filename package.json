@@ -53,9 +53,10 @@
     "exports": {
         ".": {
             "types": "./types/searchPanes.semanticui.d.ts",
+            "style": "./css/searchPanes.semanticui.css",
             "import": "./js/searchPanes.semanticui.mjs",
-            "default": "./js/searchPanes.semanticui.mjs",
-            "require": "./js/searchPanes.semanticui.js"
+            "require": "./js/searchPanes.semanticui.js",
+            "default": "./js/searchPanes.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
