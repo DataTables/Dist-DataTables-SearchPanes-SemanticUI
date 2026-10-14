@@ -25,12 +25,10 @@
         "SemanticUI",
         "Semantic UI",
         "Datatables",
-        "jQuery",
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-searchpanes": "2.3.5",
-        "datatables.net/datatables.net-se": "^2",
-        "datatables.net/jquery": ">=1.7"
+        "datatables.net/datatables.net-searchpanes": "3.0.0-beta.1",
+        "datatables.net/datatables.net-se": "^3"
     }
 }
