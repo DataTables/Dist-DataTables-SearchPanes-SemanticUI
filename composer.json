@@ -27,7 +27,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-searchpanes": "3.0.0-beta.1",
-        "datatables.net/datatables.net-se": "^3"
+        "datatables.net/datatables.net-searchpanes": "3.0.0",
+        "datatables.net/datatables.net-se": "^3.1"
     }
 }
